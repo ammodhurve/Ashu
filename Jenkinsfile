@@ -7,9 +7,8 @@ pipeline {
                          checkout scm
                        }}
                 stage('Build') {
-                  steps {
-                         
-                         }}
+                  steps { /home/amrita/Documents/devops-tools/apache-maven-3.9.1/bin
+                  }}
                 stages('Deployment'){
                   steps {
 
